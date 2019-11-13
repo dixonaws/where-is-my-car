@@ -1,0 +1,36 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "my carfinder",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "GetNewFactIntent",
+          "samples": [
+            "location"
+          ],
+          "slots": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ]
+    }
+  }
+}
